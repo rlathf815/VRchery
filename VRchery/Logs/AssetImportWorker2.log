@@ -1,0 +1,350 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 16200 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/hs-5/Documents/GitHub/VRchery/VRchery
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52349
+Successfully changed project path to: C:/Users/hs-5/Documents/GitHub/VRchery/VRchery
+C:/Users/hs-5/Documents/GitHub/VRchery/VRchery
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15072] Host "[IP] 172.30.1.46 [Port] 0 [Flags] 2 [Guid] 1201471869 [EditorId] 1201471869 [Version] 1048832 [Id] WindowsEditor(7,SOLKIM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15072] Host "[IP] 172.30.1.46 [Port] 0 [Flags] 2 [Guid] 1201471869 [EditorId] 1201471869 [Version] 1048832 [Id] WindowsEditor(7,SOLKIM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 77.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hs-5/Documents/GitHub/VRchery/VRchery/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004182 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 324 ms
+Refreshing native plugins compatible for Editor in 73.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Domain Reload Profiling:
+	ReloadAssembly (971ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (790ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (598ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (385ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003586 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hs-5\Documents\GitHub\VRchery\VRchery\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hs-5\Documents\GitHub\VRchery\VRchery\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1039ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (827ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.9 KB). Loaded Objects now: 3524.
+Memory consumption went from 172.5 MB to 172.4 MB.
+Total: 5.118100 ms (FindLiveObjects: 0.433900 ms CreateObjectMapping: 0.351400 ms MarkObjects: 4.151800 ms  DeleteObjects: 0.179800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1003507.741965 seconds.
+  path: Assets/Lowpoly Flowers/flower07.fbx
+  artifactKey: Guid(f74defbe1b9a23449aef9a881263fe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers/flower07.fbx using Guid(f74defbe1b9a23449aef9a881263fe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79aa416738c2bd504c2460ff8a6e73a4') in 0.506711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Flowers
+  artifactKey: Guid(c5d887db03386f646ba9a48e7cec90fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers using Guid(c5d887db03386f646ba9a48e7cec90fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222377d837266e0d2f17559b4e67c120') in 0.009284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Lowpoly Flowers/flower01.fbx
+  artifactKey: Guid(da1981c3ee8ea7e4186a753e15495628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers/flower01.fbx using Guid(da1981c3ee8ea7e4186a753e15495628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97c621562a898a99d55436c61909011') in 0.114419 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003978 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hs-5\Documents\GitHub\VRchery\VRchery\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hs-5\Documents\GitHub\VRchery\VRchery\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (794ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (82.0 KB). Loaded Objects now: 3539.
+Memory consumption went from 175.9 MB to 175.8 MB.
+Total: 2.655100 ms (FindLiveObjects: 0.220900 ms CreateObjectMapping: 0.115800 ms MarkObjects: 2.163300 ms  DeleteObjects: 0.153900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 130.899516 seconds.
+  path: Assets/LowPoly Environment Pack
+  artifactKey: Guid(14abec05069b5c542ad6a7d551de007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack using Guid(14abec05069b5c542ad6a7d551de007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2794076bc640de8607c151814867fc92') in 0.012742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.005726 seconds.
+  path: Assets/Lowpoly Toon Cat Lite
+  artifactKey: Guid(673fc66e9f128eb4b8f77e1f792eb4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Toon Cat Lite using Guid(673fc66e9f128eb4b8f77e1f792eb4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db42631c8164c0111ea7bbabad9c594b') in 0.010340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.043943 seconds.
+  path: Assets/Polytope Studio
+  artifactKey: Guid(115939fafdaab3542ac9de578833169e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio using Guid(115939fafdaab3542ac9de578833169e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f0d15b8c1655024d8d3809ea9a6520') in 0.008757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.112911 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos
+  artifactKey: Guid(96a08e9b3a862214b8c94c891f9b5a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos using Guid(96a08e9b3a862214b8c94c891f9b5a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25509f97eb4b25a55150a040c53e1a0b') in 0.009575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.162063 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments
+  artifactKey: Guid(be41ee6ac43e67344981ef736f6e5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments using Guid(be41ee6ac43e67344981ef736f6e5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd2abfe77f272207e380a926ab4266f') in 0.008788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.451571 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Village
+  artifactKey: Guid(9c4cb87f53ebd5c468c413df16c5ea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Village using Guid(9c4cb87f53ebd5c468c413df16c5ea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db2833e269033c6eebc799209eaf1a1') in 0.008526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.818754 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free
+  artifactKey: Guid(5c2928345bc8a9f4793d01e4fcd0b64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free using Guid(5c2928345bc8a9f4793d01e4fcd0b64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9bc06e7a49d79d51b69eff3285851b') in 0.008315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.681956 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs
+  artifactKey: Guid(3ba94cc50bb068c4bb427a52fdcb0038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs using Guid(3ba94cc50bb068c4bb427a52fdcb0038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ac57436c35202b3d27c145c41a3e7d') in 0.009923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.610411 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Village/Prefabs
+  artifactKey: Guid(46df1f2d8eb22a64fb03812d24ea1ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Village/Prefabs using Guid(46df1f2d8eb22a64fb03812d24ea1ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a1baba0ed3d0340a1351f4e4664f3d') in 0.002056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.783937 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.010980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.284135 seconds.
+  path: Assets/Scenes/CatBorg Studio
+  artifactKey: Guid(9e0871e2f25f16c479516ec695dba897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio using Guid(9e0871e2f25f16c479516ec695dba897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05086122f5243fab964691463ba1a0a9') in 0.009682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.565185 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.009886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.644325 seconds.
+  path: Assets/Scenes/CatBorg Studio/3D Pirates Lowpoly Pack
+  artifactKey: Guid(bf59ac2357cbc8f42beffb94a2457999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/3D Pirates Lowpoly Pack using Guid(bf59ac2357cbc8f42beffb94a2457999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00d7bbcc11a2380179e1ffa5db7c7c0') in 0.009517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.356038 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Scenes
+  artifactKey: Guid(7315e7d7f031d2c419425225a1886e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Scenes using Guid(7315e7d7f031d2c419425225a1886e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285213f3d75b58c7cb3b4aa7acefb0af') in 0.002628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.047781 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Scenes/Demo_Island_1.unity
+  artifactKey: Guid(6e2bd685528fe764899a23e7db05df35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Scenes/Demo_Island_1.unity using Guid(6e2bd685528fe764899a23e7db05df35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e34be1fd6fff6cefde8c6df1d0b72f') in 0.009032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.411704 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.010469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.214384 seconds.
+  path: Assets/New Scene.unity
+  artifactKey: Guid(dbbdb664902c89549b965e07d5b51193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Scene.unity using Guid(dbbdb664902c89549b965e07d5b51193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92040713d641aaf1d6e57d96a2ee8efc') in 0.007751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.877417 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(dbbdb664902c89549b965e07d5b51193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(dbbdb664902c89549b965e07d5b51193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea2630d6297432b467dadf9bdd4256d') in 0.007592 seconds 
