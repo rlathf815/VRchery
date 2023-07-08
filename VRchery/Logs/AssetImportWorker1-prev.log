@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 16200 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 16315 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+C:\Program Files\Unity 2021.3.24f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/hs-5/Documents/GitHub/VRchery/VRchery
+C:/UnityGit/VRchery/VRchery
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52736
-Successfully changed project path to: C:/Users/hs-5/Documents/GitHub/VRchery/VRchery
-C:/Users/hs-5/Documents/GitHub/VRchery/VRchery
+63102
+Successfully changed project path to: C:/UnityGit/VRchery/VRchery
+C:/UnityGit/VRchery/VRchery
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,113 +47,109 @@ C:/Users/hs-5/Documents/GitHub/VRchery/VRchery
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20768] Host "[IP] 172.30.1.46 [Port] 0 [Flags] 2 [Guid] 863358772 [EditorId] 863358772 [Version] 1048832 [Id] WindowsEditor(7,SOLKIM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23100] Host "[IP] 192.168.140.1 [Port] 0 [Flags] 2 [Guid] 1544778291 [EditorId] 1544778291 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A511SJS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20768] Host "[IP] 172.30.1.46 [Port] 0 [Flags] 2 [Guid] 863358772 [EditorId] 863358772 [Version] 1048832 [Id] WindowsEditor(7,SOLKIM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23100] Host "[IP] 192.168.140.1 [Port] 0 [Flags] 2 [Guid] 1544778291 [EditorId] 1544778291 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A511SJS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 71.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/hs-5/Documents/GitHub/VRchery/VRchery/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityGit/VRchery/VRchery/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
     Vendor:   NVIDIA
-    VRAM:     5979 MB
-    Driver:   31.0.15.2756
+    VRAM:     8003 MB
+    Driver:   31.0.15.3179
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Mono path[0] = 'C:/Program Files/Unity 2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004168 seconds.
+Register platform support module: C:/Program Files/Unity 2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005938 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 302 ms
-Refreshing native plugins compatible for Editor in 82.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
+- Completed reload, in  0.590 seconds
 Domain Reload Profiling:
-	ReloadAssembly (907ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (591ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (742ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (406ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (94ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (570ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (241ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (360ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
+				RefreshPlugins (80ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003416 seconds.
+Registered in 0.006944 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hs-5\Documents\GitHub\VRchery\VRchery\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hs-5\Documents\GitHub\VRchery\VRchery\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\UnityGit\VRchery\VRchery\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\UnityGit\VRchery\VRchery\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
+- Completed reload, in  1.138 seconds
 Domain Reload Profiling:
-	ReloadAssembly (932ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (1139ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (724ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (887ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
+			SetupTypeCache (249ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (313ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (446ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (333ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (115.0 KB). Loaded Objects now: 3525.
-Memory consumption went from 172.6 MB to 172.5 MB.
-Total: 3.302700 ms (FindLiveObjects: 0.309800 ms CreateObjectMapping: 0.217400 ms MarkObjects: 2.637200 ms  DeleteObjects: 0.137300 ms)
+Unloading 3070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (120.4 KB). Loaded Objects now: 3696.
+Memory consumption went from 171.1 MB to 171.0 MB.
+Total: 4.248200 ms (FindLiveObjects: 0.443700 ms CreateObjectMapping: 0.114700 ms MarkObjects: 3.485100 ms  DeleteObjects: 0.203400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,7 +163,203 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1004202.102193 seconds.
-  path: Assets/Unvik_3D
-  artifactKey: Guid(a5a869ffb8df4754da25b5d05add8718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unvik_3D using Guid(a5a869ffb8df4754da25b5d05add8718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9519122ca3e61ff108f78891b73779e') in 0.010272 seconds 
+  Time since last request: 22833.920065 seconds.
+  path: Assets/3D Pirates Lowpoly Pack
+  artifactKey: Guid(bf59ac2357cbc8f42beffb94a2457999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack using Guid(bf59ac2357cbc8f42beffb94a2457999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef3c1b72ec63026609d282d71df968d') in 0.015929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.478344 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/00_Island_2.prefab
+  artifactKey: Guid(b5b345652819a96468b021a97fe70a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/00_Island_2.prefab using Guid(b5b345652819a96468b021a97fe70a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ea592ecdb9554a0a59e1230677d9eb') in 0.283044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/02_Market_Sack_Stack.prefab
+  artifactKey: Guid(ff4f86447611312488abf22d86ee07a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/02_Market_Sack_Stack.prefab using Guid(ff4f86447611312488abf22d86ee07a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fd0b073cb171124bc6b381fbe9d306') in 0.020066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/04_CannonShop_Cannon_Cart.prefab
+  artifactKey: Guid(7e24fb19154ee244698c74e28dcfc51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/04_CannonShop_Cannon_Cart.prefab using Guid(7e24fb19154ee244698c74e28dcfc51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a64370ccbe5871ccb1f21b2c1d2df5') in 0.018160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/06_MusketShop_Box_Full.prefab
+  artifactKey: Guid(d3a032d40f8f1804a8f9e0b611f94a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/06_MusketShop_Box_Full.prefab using Guid(d3a032d40f8f1804a8f9e0b611f94a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fd7f10a71cc19adff266548eea5207') in 0.019586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/05_Destilery_Banner_Destilary.prefab
+  artifactKey: Guid(db6ba1465b71d5d49abf7181248ea33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/05_Destilery_Banner_Destilary.prefab using Guid(db6ba1465b71d5d49abf7181248ea33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab24a8aa574603ae16f18dd5be529c9') in 0.018620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/07_Tavern_Banner.prefab
+  artifactKey: Guid(4c3ea90e07e40b4468d424eed7335dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/07_Tavern_Banner.prefab using Guid(4c3ea90e07e40b4468d424eed7335dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ace827a38e578ff27deefac46f8d587') in 0.017046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/04_CannonShop_Banner_Cannon.prefab
+  artifactKey: Guid(bb27a5db55d9b79419f30fd6efacadf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/04_CannonShop_Banner_Cannon.prefab using Guid(bb27a5db55d9b79419f30fd6efacadf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e24089cce431bd8712bdedae55b4702') in 0.017558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/06_MusketShop_Rifle_1.prefab
+  artifactKey: Guid(38754b419e0428749afcecc83a18c182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/06_MusketShop_Rifle_1.prefab using Guid(38754b419e0428749afcecc83a18c182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb89a9d9d166edfddfe9006281f22aa') in 0.015693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/06_MusketShop_Stander_Full.prefab
+  artifactKey: Guid(3002a69289076d0409281f610aef5376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/06_MusketShop_Stander_Full.prefab using Guid(3002a69289076d0409281f610aef5376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944dfeff9d3e8cf9ce8a2c1b8933c388') in 0.018503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/01_House_5.prefab
+  artifactKey: Guid(b5b2be1faa1821a4e83b8067df74c09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/01_House_5.prefab using Guid(b5b2be1faa1821a4e83b8067df74c09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18629dbc48052c66a9d96f381377f798') in 0.015255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/02_Market_Barrel_Single_Open.prefab
+  artifactKey: Guid(69eee11787343a143ad850f77705bb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/02_Market_Barrel_Single_Open.prefab using Guid(69eee11787343a143ad850f77705bb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45d7c02a0d545008f05d99a8ad5db1e') in 0.018490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/01_House_6.prefab
+  artifactKey: Guid(759f1923cf69d1c4e9348fc95e1e9042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/01_House_6.prefab using Guid(759f1923cf69d1c4e9348fc95e1e9042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0120eff68f8349438039bb0ae1eb9b1f') in 0.020514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/05_Destilery_Rum_Crate_1.prefab
+  artifactKey: Guid(bad73a5f0469e764fb4dc7c923beb5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/05_Destilery_Rum_Crate_1.prefab using Guid(bad73a5f0469e764fb4dc7c923beb5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43af3d0aadb02d0c17c8d19d5127cfeb') in 0.018874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/03_FishermanHouse_FishTrap.prefab
+  artifactKey: Guid(99be4f0b47e59b34781dc43c70252c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/03_FishermanHouse_FishTrap.prefab using Guid(99be4f0b47e59b34781dc43c70252c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1a9fb8a3ccfc2078b80f4677920f8e') in 0.014446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/07_Tavern_UmbrelaTable_2.prefab
+  artifactKey: Guid(d4effc3173a6c084ab1e0f9cf40a072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/07_Tavern_UmbrelaTable_2.prefab using Guid(d4effc3173a6c084ab1e0f9cf40a072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafbf298dc9b2f47f7871a0b20ea4657') in 0.018321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/00_Island_6.prefab
+  artifactKey: Guid(fef58f17f6bc50b4fa2a3b58fc8b4dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/00_Island_6.prefab using Guid(fef58f17f6bc50b4fa2a3b58fc8b4dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a31b59a80c8f3b5b7162de3fe096b3') in 0.019214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/04_CannonShop_CannonBall_Stack_2.prefab
+  artifactKey: Guid(7acb16f026c4160448eec41d6c9a978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/04_CannonShop_CannonBall_Stack_2.prefab using Guid(7acb16f026c4160448eec41d6c9a978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fe927343943c63e3c0448857601292') in 0.013767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/07_Tavern_UmbrelaTable_1.prefab
+  artifactKey: Guid(8fea800076991d148bba2e6f1cd6f6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/07_Tavern_UmbrelaTable_1.prefab using Guid(8fea800076991d148bba2e6f1cd6f6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd378a99f37ecc333ed1b0b4f43ba4680') in 0.020750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/02_Market_Crate_3.prefab
+  artifactKey: Guid(9de500b5ea6b34441b0ddda838c5ea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/02_Market_Crate_3.prefab using Guid(9de500b5ea6b34441b0ddda838c5ea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb3a0ec84402bf895c129a125b49833') in 0.018964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/01_House_1.prefab
+  artifactKey: Guid(67c9d86fe5b7e6d4091c169d70fbe35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/01_House_1.prefab using Guid(67c9d86fe5b7e6d4091c169d70fbe35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e75f59b23aa108f2eccfcc4e4b6cacf') in 0.021247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/03_FishermanHouse_FishermanStand_2.prefab
+  artifactKey: Guid(df1a50ae0ab3ac54591ca8e15032c9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/03_FishermanHouse_FishermanStand_2.prefab using Guid(df1a50ae0ab3ac54591ca8e15032c9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e4c77b60f16812c85f79521e920e5e') in 0.018493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/02_Market_Barrel_Single_Closed.prefab
+  artifactKey: Guid(d51ff2188494a8e4587a4ba203ba03fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/02_Market_Barrel_Single_Closed.prefab using Guid(d51ff2188494a8e4587a4ba203ba03fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11c660cd493306c8371df5714c36e62') in 0.014682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/01_House_4.prefab
+  artifactKey: Guid(3f875203e6580d247a02b6bd3ac8a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/01_House_4.prefab using Guid(3f875203e6580d247a02b6bd3ac8a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61bf89a0e2e760fe6a370598a8503bb') in 0.014971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/04_CannonShop_Cannon_Mold.prefab
+  artifactKey: Guid(e3618e5d2fc09d646aebb4ac2e0cbf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/04_CannonShop_Cannon_Mold.prefab using Guid(e3618e5d2fc09d646aebb4ac2e0cbf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec4db8852b7d811d2153a01ad7e8aa0') in 0.014885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/00_Island_7.prefab
+  artifactKey: Guid(7e0ec412034c76d44a0889e92c219b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/00_Island_7.prefab using Guid(7e0ec412034c76d44a0889e92c219b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8a45da6de88cf85121b6c9fe900d28') in 0.020172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/05_Destilery_Rum_Bottle_3.prefab
+  artifactKey: Guid(10b87e9de5680434f9ab8c50536dd25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/05_Destilery_Rum_Bottle_3.prefab using Guid(10b87e9de5680434f9ab8c50536dd25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb5a7b345376d5506ce415aae085d1c') in 0.020174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/04_CannonShop_CannonBall_Single.prefab
+  artifactKey: Guid(1e5f707d1cbd9e542a332cd6c743cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/04_CannonShop_CannonBall_Single.prefab using Guid(1e5f707d1cbd9e542a332cd6c743cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de8b16ef0a78b0d9c7f1023a98b11e5') in 0.014171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/03_FishermanHouse_FishermanCart.prefab
+  artifactKey: Guid(3fa76355d12594143a30d5539b6b75e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/03_FishermanHouse_FishermanCart.prefab using Guid(3fa76355d12594143a30d5539b6b75e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf337358554ecd9f5022ef53a9f06aef') in 0.015128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/03_FishermanHouse_FishermanStand_3.prefab
+  artifactKey: Guid(b37af54fc6755e842adb1a2d53dc295e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/03_FishermanHouse_FishermanStand_3.prefab using Guid(b37af54fc6755e842adb1a2d53dc295e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7700917cb739f3d742136ca5897a3eb') in 0.013358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/06_MusketShop_Barrel_GunPowder.prefab
+  artifactKey: Guid(d791c2d20444822428f350f6f31e21de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/06_MusketShop_Barrel_GunPowder.prefab using Guid(d791c2d20444822428f350f6f31e21de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a25ccaa97dd496190756b8178a38e3e') in 0.013858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/03_FishermanHouse_Bucket_Empty.prefab
+  artifactKey: Guid(2410a82b7edd12b4a8eadd1f615c3502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/03_FishermanHouse_Bucket_Empty.prefab using Guid(2410a82b7edd12b4a8eadd1f615c3502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581d904776e377dfba40d9613e3e5188') in 0.012689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Pirates Lowpoly Pack/Prefabs/99_Sea.prefab
+  artifactKey: Guid(928b7ab55e4c640469989d2fad85c7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Pirates Lowpoly Pack/Prefabs/99_Sea.prefab using Guid(928b7ab55e4c640469989d2fad85c7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84feaffdc6c16129472dd45c7536a5de') in 0.018267 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
