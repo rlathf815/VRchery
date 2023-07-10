@@ -351,8 +351,16 @@
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/MouseCamLook.cs"
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/PlayerMovement.cs"
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/ScreenshotMaker.cs"
-"Assets/Lowpoly Toon Cat Lite/Demo/Cat_Lite_Demo.cs"
+"Assets/cat/Lowpoly Toon Cat Lite/Demo/Cat_Lite_Demo.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
+"Assets/ScriptedArrows/SampleScene/Scripts/CharacterTeleport.cs"
+"Assets/ScriptedArrows/SampleScene/Scripts/MoveLeftAndRight.cs"
+"Assets/ScriptedArrows/Scripts/ArcherController.cs"
+"Assets/ScriptedArrows/Scripts/ArrowController.cs"
+"Assets/ScriptedArrows/Scripts/MathParabola.cs"
+"Assets/ScriptedArrows/Scripts/ScriptableObjects/ArrowSO.cs"
+"Assets/Scripts/Arrow.cs"
+"Assets/Scripts/ShootArrow.cs"
 -langversion:9.0
 
 /deterministic
