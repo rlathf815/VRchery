@@ -19,8 +19,8 @@ public class ArcherController : MonoBehaviour
     private float rKeyHoldTime = 0f;
     private float minFlightSpeed = 4f;
     private float maxFlightSpeed = 8f;
-    private float minShootRange = 5f;
-    private float maxShootRange = 50f;
+   // private float minShootRange = 5f;
+   // private float maxShootRange = 50f;
 
     //private void FixedUpdate()
     //{
@@ -44,7 +44,7 @@ public class ArcherController : MonoBehaviour
             float modifiedFlightSpeed = Mathf.Lerp(minFlightSpeed, maxFlightSpeed, rKeyHoldTime);
 
             // Calculate modifiedShootRange based on rKeyHoldTime
-            float modifiedShootRange = Mathf.Lerp(minShootRange, maxShootRange, rKeyHoldTime);
+            float modifiedShootRange = Mathf.Lerp(MinimalShootRange, MaximalShootRange, rKeyHoldTime);
 
             // Shoot a single Arrow
             TryToShoot(modifiedShootRange, modifiedFlightSpeed);

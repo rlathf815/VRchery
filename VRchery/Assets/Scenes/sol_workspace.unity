@@ -141,8 +141,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ArrowPrefab: {fileID: 6547354802806682731, guid: b7778a7e0fa018a4b819cf2eb8e8bdf3, type: 3}
-  MaximalShootRange: 20
-  MinimalShootRange: 4
+  MaximalShootRange: 50
+  MinimalShootRange: 2
   SpreadFactor: 0.23
   SpreadFactorDistanceImpact: 0.1
   HeightMultiplier: 0.1
