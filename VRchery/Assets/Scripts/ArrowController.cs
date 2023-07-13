@@ -3,24 +3,24 @@
 public class ArrowController : MonoBehaviour
 {
     [Header("Trail")]
-    public TrailRenderer trailRenderer; // This should be set in the Prefab, alternatively in the Start-method
+    public TrailRenderer trailRenderer; 
 
-    public ArrowSO ArrowSO;             // The ScriptableObject that holds most settings for the Arrow
-    public GameObject MeshParent;       // Parent GameObject of the meshes
+    public ArrowSO ArrowSO;            
+    public GameObject MeshParent;      
 
-    private Vector3 target;             // Position the arrow is trying to hit
-    private Collider ownerCollider;     // Collider of the GameObject that shoots the Arrow
-    private float flightSpeed;          // Speed of the Arrow
-    private float heightMultiplier;     // The parabola-height of the flightpath (Arrows fly in a higher arc)
-    private float lifeTime;             // Time until death (in seconds)
+    private Vector3 target;            
+    private Collider ownerCollider;    
+    private float flightSpeed;         
+    private float heightMultiplier;    
+    private float lifeTime;            
 
-    private float flightTimer;          // Timer used for flight-calculation
-    private Vector3 startPoint;         // Position from where the Arrow was shot
-    private float targetDistance;       // Distance from startPoint to the target
-    private float speedToDistance;      // The speed of the Arrow relative to the distance (this gives the Arrow a constant speed, no matter the distance)
-    private Vector3 lastPosition;       // Position of the Arrow from last FixedUpdate step
-    private bool readyToFly;            // Whether or not the Arrow has hit something
-    private bool isInitialized;         // Condition for the arrow to begin its flight
+    private float flightTimer;         
+    private Vector3 startPoint;        
+    private float targetDistance;      
+    private float speedToDistance;     
+    private Vector3 lastPosition;      
+    private bool readyToFly;           
+    private bool isInitialized;        
 
     private void Awake()
     {
@@ -31,7 +31,6 @@ public class ArrowController : MonoBehaviour
         readyToFly = false;
         isInitialized = false;
 
-        // Disable all renderes so the arrow will not be visible the frame before it starts its path.
         MeshRenderer[] meshRenderers = transform.GetComponentsInChildren<MeshRenderer>();
         foreach (var renderer in meshRenderers)
         {
